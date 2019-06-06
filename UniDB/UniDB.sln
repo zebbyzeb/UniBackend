@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UniDB", "UniDB.sqlproj", "{DE076509-4CB1-4DF1-803D-463780598772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniService", "..\UniService\UniService.csproj", "{60A2EFEF-2B1B-489A-BC09-CD7AF85DE850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE076509-4CB1-4DF1-803D-463780598772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE076509-4CB1-4DF1-803D-463780598772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE076509-4CB1-4DF1-803D-463780598772}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE076509-4CB1-4DF1-803D-463780598772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE076509-4CB1-4DF1-803D-463780598772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE076509-4CB1-4DF1-803D-463780598772}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{60A2EFEF-2B1B-489A-BC09-CD7AF85DE850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A2EFEF-2B1B-489A-BC09-CD7AF85DE850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A2EFEF-2B1B-489A-BC09-CD7AF85DE850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A2EFEF-2B1B-489A-BC09-CD7AF85DE850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB48F765-C908-43D7-9682-68C76FC322E5}
+	EndGlobalSection
+EndGlobal
